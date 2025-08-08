@@ -21,8 +21,7 @@ This project is a fully functional phishing campaign simulator built with Python
 ## How it Works
 1.  An administrator would send a simulated phishing email to a target user containing a link to this web application.
 2.  The user clicks the link and is presented with a fake login page (`login.html`).
-3.  When the user submits their credentials, the application's backend (`app.py`) logs that a submission occurred (<img width="1920" height="1080" alt="Screenshot 2025-08-08 140640" src="https://github.com/user-attachments/assets/3db94f0c-d04d-4843-a459-1ed0cd27200c" />
-without saving the password) and immediately redirects the user.
+3.  When the user submits their credentials, the application's backend (`app.py`) logs that a submission occurred without saving the password) and immediately redirects the user.(<img width="1920" height="1080" alt="Screenshot 2025-08-08 140640" src="https://github.com/user-attachments/assets/3db94f0c-d04d-4843-a459-1ed0cd27200c" />
 4.  The user is sent to an educational page (`/caught`) that explains that this was a test and provides tips on how to spot real phishing attacks.
 <img width="1920" height="1080" alt="Screenshot 2025-08-08 140751" src="https://github.com/user-attachments/assets/82da2a03-e777-48d3-9f1b-c850048f4ef7" />
 
